@@ -1,0 +1,101 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: black; /* altera a cor de todos os links das páginas */
+}
+/*================================================
+.*.^              header
+==================================================*/
+header{
+  padding: 3vw 10vw 3vw 10vw;
+}
+header nav{
+  display: flex;
+  justify-content: space-between;
+}
+header nav h1{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  margin: 0 5px 0 5px;
+}
+header nav ul li.atual a {
+  color: #FB2E86;
+}
+/*===================================================
+                BANNER
+=====================================================*/
+section.banner{
+  background: #F2F0FF;
+  display: flex;
+  padding: 3vw 10vw 3vw 10vw;
+}
+section.banner p.rosa {
+  color: #FB2E86;
+  font-weight: bold;
+
+}
+section.banner h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 2vw 0 3vw 0;
+}
+section.banner p {
+  color: #8A8FB9;
+  margin: 0 0 20px 0;
+}
+section.banner p button{
+  background: #FB2E86;
+  border-radius: 5%;
+  padding: 10px 20px 10px 20px ;
+  font-size: 1rem;
+  color: #ffff;
+  margin:  5vw 0 0 0;
+}
+section.banner div.imagem {
+  width: 30%;
+  margin: 0 0 0 10%;
+}
+/*=======================================================
+PRODUTOS
+=========================================================*/
+section.produtos{
+  padding: 3vw 10vw 3vw 10vw;
+}
+section.produtos h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #1A0B5B;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+section.produtos ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+section.produtos ul li {
+  width: 30%;
+}
+section.produtos ul li p {
+   background-color: #F7F7F7;
+   text-align: center;
+   width: 100%;
+   
+}
+section.produtos h4{
+  color: #151875;
+    margin: 2vw 0 2vw 0;
+}
+
+
+

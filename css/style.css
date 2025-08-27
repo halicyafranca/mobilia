@@ -96,6 +96,57 @@ section.produtos h4{
   color: #151875;
     margin: 2vw 0 2vw 0;
 }
+/*==============================================================
+INVITE
+================================================================*/
 
+section.invite  {
+  padding: 4vw 30vw;
+  background: url(../src/images/back-section-update.png);
+  background-position: center;
+  text-align: center;
+}
+section.invite h2{
+  font-size: 2.2rem;
+  color: #151875;
+  font-weight: bold;
+  margin: 2vw;
+}
+section.invite button{
+  margin: 2vw  0 0 0;
+  background: #FB2E86;
+  color: #F7F7F7;
+  border-radius: 5%;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+/*================================================================
+FOOTER
+===================================================================*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 10vw;
+  background-color: #EEEFFB;
+}
+footer h2{
+  color: black;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+footer p{
+  margin: 10px 0 ;
+  color: #8A8FB9;
+}
+footer h3{
+  font-size: 1.5rem;
+  color: black;
+  margin: 20px 0;
+  font-weight: bold;
+}
+footer div nav ul li a {
+  color: #8A8FB9;
+  line-height: 2rem;
+}
 
 
